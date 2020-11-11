@@ -3,7 +3,12 @@ import os
 from dotenv import load_dotenv
 
 
-# TODO: create a .env file
+# TODO: create a .env file with the SECRET_KEY and SQLALCHEMY_DATABASE_URI
+# HINT: if you get a "drivername" error try exporting to the terminal
+# as well as having them in your .env file. i.e.
+# export SECRET_KEY=secret
+
+
 class Config:
     """Config class."""
 
